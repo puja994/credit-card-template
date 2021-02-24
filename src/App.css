@@ -1,0 +1,61 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.add-new-card {
+  margin-top: 40px;
+}
+.new-cc-form {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 300px;
+  background: #e5e2e2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.add-new-cc-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input-group {
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+}
+
+select {
+  width: 173px;
+}
+
+[type="submit"] {
+  margin-top: 20px;
+}
+[name="month"],
+[name="year"] {
+  width: 80px;
+}
+
+.error {
+  /* background: red; */
+  color: red;
+  font-size: 0.7rem;
+}
+
+@media (max-width: 768px) {
+  .add-new-cc-form {
+    display: flex;
+    flex-direction: column;
+  }
+}
